@@ -1,0 +1,14 @@
+#send {
+    grid-area: send;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-areas: "input button";
+}
+
+#send input{
+    grid-area: input;
+}
+
+#send button{
+    grid-area: button;
+}

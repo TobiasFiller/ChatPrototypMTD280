@@ -1,0 +1,32 @@
+@import "send.css";
+@import "leave.css";
+
+#msgBox {
+    border-width: 1px;
+    border-style: solid;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 18fr 1fr;
+    grid-template-areas: "leave" "msgBox" "send";
+}
+
+#msgBox-div {
+    overflow-y:auto;
+    grid-area: msgBox;
+}
+
+#msgBox-div table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#msgBox-div td {
+    text-align: left;
+    padding: 5px;
+}
+
+#msgBox-div td:nth-child(even){
+    width: 80%;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}

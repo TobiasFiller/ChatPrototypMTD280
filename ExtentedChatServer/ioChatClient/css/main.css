@@ -1,0 +1,28 @@
+@import "fonts.css";
+@import "colors.css";
+@import "msgBox.css";
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#join {
+    display: grid;
+    grid-template-columns: 5fr 6fr 2fr 5fr;
+    grid-template-areas:  ". input button ." ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#join input {
+    grid-area: input;
+}
+
+#join button {
+    grid-area: button;
+}
+
+

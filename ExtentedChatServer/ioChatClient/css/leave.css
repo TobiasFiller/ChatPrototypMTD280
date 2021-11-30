@@ -1,0 +1,16 @@
+#leave {
+    grid-area: leave;
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-areas: "input button";
+}
+
+#leave p{
+    grid-area: input;
+    margin: 0;
+    padding: 5px;
+}
+
+#leave button{
+    grid-area: button;
+}
